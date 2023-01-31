@@ -66,14 +66,33 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="" class="nav-link">About</a>
+                <a href="#footer" class="nav-link">contact</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Download</a>
+                <a href="#cta" class="nav-link">Download</a>
               </li>
 
               <li class="nav-item">
-                <a href="" class="nav-link">contact</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Categories</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#categories">Formals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#categories">Watches</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#categories">Shoes</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -87,7 +106,7 @@
               <i class="fa-brands fa-apple"></i> Download
             </button>
             <button type="button" class="btn btn-outline-dark download-btn">
-              <i class="fa-brands fa-android"></i> Download
+              <i class="fa-brands fa-google-play"></i> Download
             </button>
           </div>
           <div class="frontimg col-lg-6">
@@ -128,12 +147,12 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- categories -->
 
     <section id="categories">
       <div id="cat-carousel" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div id="formals" class="carousel-item active">
             <h2 class="h2_carousel">Formal Wear</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4">
@@ -155,7 +174,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div id="Shoes" class="carousel-item">
             <h2 class="h2_carousel">Shoes</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4">
@@ -169,7 +188,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div id="Watches" class="carousel-item">
             <h2 class="h2_carousel">Watches</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4">
@@ -232,44 +251,88 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      <h2 style="color: #3c2a21">A Plan for you to grab good deals.</h2>
+      <p>Simple and affordable price plans for your needs.</p>
 
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Lieutenant</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">Free</h2>
+              <p>Special Offers every 10 days</p>
+              <p>5% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid">
+                <button type="button" class="btn btn-lg btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Captain</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">$49 / mo</h2>
+              <p>Special Offers every 5 days</p>
+              <p>25% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-block btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Major</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">$99 / mo</h2>
+              <p>Special Offers every day</p>
+              <p>40% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid">
+                <button type="button" class="btn btn-lg btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h1>Find the Good Deal for a Good Price.</h1>
+      <button type="button" class="btn btn-dark download-btn">
+        <i class="fa-brands fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-dark download-btn">
+        <i class="fa-brands fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-brands fa-github"></i>
+      <i class="social-icon fa-brands fa-linkedin"></i>
+      <p>© Copyright ShopEasy / arif shaik</p>
     </footer>
   </body>
 </html>
