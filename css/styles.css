@@ -54,6 +54,22 @@ p{
 .download-btn{
     margin:3% 5% 0 2% ;
 }
+.btn {
+    
+    font-family: Arial;
+    color: #F0EBCE;
+    font-size: 15px;
+    background: #1A120B;
+    padding: 10px 20px 10px 20px;
+    border: solid #1A120B 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F0EBCE;
+    color : #1A120B;
+    text-decoration: none;
+  }
 
 /* -------------------------------------------------------------------- */
 
