@@ -185,6 +185,8 @@ padding: 7% 15%;
 }
 .social-icon{
     padding: 20px 10px;
+    text-decoration: none;
+    color: #1A120B;
 }
 
 /* -------------------------------------------------------------------- */
