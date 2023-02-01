@@ -4,7 +4,7 @@ body{
 }
 
 #title{
-    background-color: #E5E5CB;
+    background-color: #F0EBCE;
     
 }
 
@@ -23,7 +23,7 @@ h2{
 }
 
 .h2_carousel{
-    color: #E5E5CB;
+    color: #F0EBCE;
 
 }
 h3{
@@ -57,12 +57,12 @@ nav{
     padding: 0 15px;
 }
 .dropdown ul{
-    background-color: #E5E5CB;
+    background-color: #F0EBCE;
 
 }
 .dropdown li :hover{
     background-color:#1A120B;
-    color: #E5E5CB;
+    color: #F0EBCE;
 }
 
 /* download - buttons */
@@ -141,7 +141,7 @@ margin-right: 3%;
 
 #cta{
 padding: 7% 15%;
-background-color: #E5E5CB; 
+background-color: #F0EBCE; 
 text-align: center;
 
 }
