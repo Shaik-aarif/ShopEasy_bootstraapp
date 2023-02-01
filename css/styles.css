@@ -146,9 +146,14 @@ margin-right: 3%;
 
     padding: 3% 2%;
 }
-.h3-pricing{
-    color: #3c2a21;
+.card-header{
+    background-color: #1A120B;
+    color: #F0EBCE;
 }
+.card-body{
+    background-color:#F0EBCE ;
+}
+
 
 
 /* -------------------------------------------------------------------- */
